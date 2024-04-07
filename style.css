@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'poppins',sans-serif;
+  }
+  body{
+    background-color: rgb(235, 255, 148);
+    filter: drop-shadow(0 -20px -10px black);
+    cursor: not-allowed;
+    flex-direction: column;
+  }
+  .html-icon{
+    width: 450px;
+  }
+  .html-icon2{
+    width: 450px;
+    transform: translate(700px, 50px);
+  }
+  .logo{
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  span{
+    color: var(--main-color);
+    transition: all .45s ease;
+  }
+  span:hover{
+    text-shadow: 0 0 5px var(--main-color), 
+    0 0 30px var(--main-color);
+  }
+  .navlist{
+    display: flex;
+  }
+  .navlist a{
+    color: var(--second-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s ease;
+  }
+  .navlist a:hover{
+    color: var(--main-color);
+  }
+  .navlist a.active{
+    color: var(--main-color);
+  }
+  .navlist li a.active {
+      color: var(--main-color);
+  }
+  ul li a{
+    transform: translate(50px, -420px);
+    text-decoration: none;
+    font-size: 100px;
+    width: 300px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul p{
+    transform: translate(670px, -380px);
+}
+.navlist li a {
+  color: rgb(49, 49, 49);
+  transform: translate(0px, 60px);
+  list-style: none;
+}
+
+.navlist{
+  transform: translate(560px, 40px);
+}
+  .waves{
+    transform: translate(0px, 368px);
+    filter: drop-shadow(0 -20px -10px black);
+  }
+  .references i{
+    display: fles;
+    transform: translate(650px, 170px);
+    color: grey;
+    font-size: 70px;
+    gap: 10px;
+  }
+  .references .instagram i:hover{
+    color: #f09433;
+  }
+  .references .google i:hover{
+    color: #f00000;
+  }
+  .references .facebook i:hover,
+  .references .twitter i:hover{
+    color: #00b7ff;
+  }
+  .references .github i:hover{
+    color: rgb(19, 0, 0);
+  }
+  .information{
+    transform: translate(530px, -280px);
+  }
+  .profile{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 7px 9px rgb(105, 105, 105);
+    transform: translate(200px, -100px);
+  }
+  h2{
+    transform: translate(150px, 10px);
+    font-size: 40px;
+  }
+  h3{
+    width: 500px;
+    text-align: center;
+    transform: translate(50px, 15px);
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .basic-information{
+    width: 1000px;
+    height: 800px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transform: translate(370px, 20px);
+    border-radius: 10px;
+  }
+
+  .name{
+    font-size: 30px;
+    font-weight: bolder;
+    transform: translate(20px, 50px);
+  }
+
+  .details{
+    transform: translate(20px, 90px);
+  }
+
+  .github-link{
+    text-decoration: none;
+  }
+
+  .github-link:hover{
+    background: underline;
+    opacity: rgb(97, 97, 255);
+  }
+
+  .infor .name{
+    transform: translate(20px, 120px);
+  }
+
+  .bafo{
+    transform: translate(20px, 150px);
+  }
+
+  span{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 70px;
+  }
+
+  .skills{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 1000px;
+    height: 800px;
+    border-radius: 10px;
+    transform: translate(370px, 170px);
+  }
+
+  .nakills{
+    display: flex;
+    transform: translate(425px, 140px);
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .line{
+    position: absolute;
+    height: 10px;
+    width: 500px;
+    background-color: rgb(76, 255, 76);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(390px, 100px);
+  }
+
+  .line-two{
+    position: absolute;
+    height: 10px;
+    width: 500px;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(60px, 100px);
+  }
+
+  .percentage{
+    transform: translate(0px, 70px);
+    color: green;
+  }
+
+  .ocho{
+    color: green;
+    margin-left: 50px;
+  }
+
+  .second-line{
+    position: absolute;
+    height: 10px;
+    width: 500px;
+    background-color: rgb(76, 255, 76);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(390px, 200px);
+  }
+
+  .second-line-two{
+    position: absolute;
+    height: 10px;
+    width: 600px;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(60px, 200px);
+  }
+
+  .third-line{
+    position: absolute;
+    height: 10px;
+    width: 550px;
+    background-color: rgb(76, 255, 76);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(340px, 300px);
+  }
+
+  .third-line-two{
+    position: absolute;
+    height: 10px;
+    width: 330px;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(60px, 300px);
+  }
+
+  .fourth-line{
+    position: absolute;
+    height: 10px;
+    width: 750px;
+    background-color: rgb(76, 255, 76);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(140px, 400px);
+  }
+
+  .fourth-line-two{
+    position: absolute;
+    height: 10px;
+    width: 230px;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(60px, 400px);
+  }
+
+  .fifth-line{
+    position: absolute;
+    height: 10px;
+    width: 750px;
+    background-color: rgb(76, 255, 76);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(140px, 500px);
+  }
+
+  .fifth-line-two{
+    position: absolute;
+    height: 10px;
+    width: 430px;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(60px, 500px);
+  }
+
+  .six-line{
+    position: absolute;
+    height: 10px;
+    width: 750px;
+    background-color: rgb(76, 255, 76);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(140px, 600px);
+  }
+
+  .six-line-two{
+    position: absolute;
+    height: 10px;
+    width: 430px;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(60px, 600px);
+  }
+
+  .seven-line{
+    position: absolute;
+    height: 10px;
+    width: 750px;
+    background-color: rgb(76, 255, 76);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(140px, 700px);
+  }
+
+  .seven-line-two{
+    position: absolute;
+    height: 10px;
+    width: 550px;
+    background-color: green;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    transform: translate(60px, 700px);
+  }
+
+  .work{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 700px;
+    height: 700px;
+    transform: translate(510px, 350px);
+  }
+
+  .experience{
+    background: green;
+    transform: translate(0px, 0px);
+    padding-bottom: 310px;
+  }
+
+  .year{
+    font-size: 30px;
+  }
+
+  .school{
+    font-size: 22px;
+  }
+
+  .year, 
+  .school{
+    text-align: center;
+    line-height: 50px;
+    transform: translate(0px, 170px);
+    color: rgb(223, 223, 223);
+    font-family: 'poppins',sans-serif;
+  }
+
+  .bsit{
+    font-size: 30px;
+    width: 600px;
+    transform: translate(60px, 40px);
+  }
+
+  .university{
+    transform: translate(60px, 50px);
+    width: 450px;
+    font-size: 20px;
+  }
+  .work-experience{
+    transform: translate(0px, 50px);
+  }
+
+  .education{
+    transform: translate(540px, 230px);
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .second-work{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 700px;
+    height: 700px;
+    transform: translate(510px, 450px);
+  }
+
+  .second-experience{
+    background: green;
+    transform: translate(0px, 0px);
+    padding-bottom: 310px;
+  }
+
+  .second-year{
+    font-size: 30px;
+  }
+
+  .second-school{
+    font-size: 22px;
+  }
+
+  .second-year, 
+  .second-school{
+    text-align: center;
+    line-height: 50px;
+    transform: translate(0px, 170px);
+    color: rgb(223, 223, 223);
+    font-family: 'poppins',sans-serif;
+  }
+
+  .second-bsit{
+    font-size: 30px;
+    width: 600px;
+    transform: translate(60px, 40px);
+  }
+
+  .second-university{
+    transform: translate(60px, 50px);
+    width: 450px;
+    font-size: 20px;
+  }
+
+  .second-work-experience{
+    transform: translate(0px, 50px);
+  }
+
+  .third-work{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 700px;
+    height: 700px;
+    transform: translate(510px, 250px);
+  }
+
+  .third-experience{
+    background: green;
+    transform: translate(0px, 0px);
+    padding-bottom: 310px;
+  }
+
+  .third-year{
+    font-size: 30px;
+  }
+
+  .third-school{
+    font-size: 22px;
+  }
+
+  .third-year, 
+  .third-school{
+    text-align: center;
+    line-height: 50px;
+    transform: translate(0px, 170px);
+    color: rgb(223, 223, 223);
+    font-family: 'poppins',sans-serif;
+  }
+
+  .third-bsit{
+    font-size: 30px;
+    width: 600px;
+    transform: translate(60px, 40px);
+  }
+
+  .third-university{
+    transform: translate(60px, 50px);
+    width: 450px;
+    font-size: 20px;
+  }
+
+  .third-work-experience{
+    transform: translate(0px, 50px);
+  }
+
+  .icons i{
+    display: fles;
+    transform: translate(670px, 1095px);
+    color: grey;
+    font-size: 70px;
+    gap: 10px;
+  }
+
+  .spaces{
+    background-color: transparent;
+    transform: translate(100px, 430px);
+    height: 3px;
+    padding-bottom: 40px;
+  }
+
+  .images{
+    background-color: #fff;
+    transform: translate(400px, 480px);
+    width: 900px;
+  }
+
+  @media screen and (max-width: 269px) {
+    
+    .html-icon{
+      width: 200px;
+    }
+    .html-icon2{
+      width: 200px;
+      transform: translate(500px, -150px);
+    }
+    .profile{
+      width:150px;
+      transform: translate(-250px, 70px);
+    }
+    .information h2{
+      font-size: 20px;
+      transform: translate(-250px, 140px);
+    }
+    .namo{
+      font-size: 15px;
+      color: black;
+    }
+    .namos{
+      font-size: -50px;
+      transform: translate(-430px, 74px);
+      color: black;
+    }
+    .basic-information{
+      width: 335px;
+      transform: translate(190px, -40px);
+    }
+    p{
+      width: 300px;
+    }
+    .navlist li a {
+      color: black;
+      font-size: 15px;
+      width: 300px;
+      transform: translate(-500px);
+    }
+    .navlist a{
+      margin: 3px;
+      font-size: 20px;
+      transform: translate(-400px);
+    }
+
+    .skills{
+      width: 335px;
+      transform: translate(190px, 50px);
+    }
+
+    .line-two{
+      transform: translate(20px, 120px);
+      width: 180px;
+    }
+    .line{
+      transform: translate(20px, 120px);
+      width: 300px;
+    }
+    .second-line{
+      transform: translate(20px, 220px);
+      width: 300px;
+    }
+    .second-line-two{
+      transform: translate(20px, 220px);
+      width: 220px;
+    }
+    .third-line{
+      transform: translate(20px, 320px);
+      width: 300px;
+    }
+    .third-line-two{
+      width: 120px;
+      transform: translate(20px, 320px);
+    }
+    .fourth-line{
+      transform: translate(20px, 420px);
+      width: 300px;
+    }
+    .fourth-line-two{
+      transform: translate(20px, 420px);
+      width: 85px;
+    }
+    .fifth-line{
+      transform: translate(20px, 520px);
+      width: 300px;
+    }
+    .fifth-line-two{
+      transform: translate(20px, 520px);
+      width: 145px;
+    }
+    .six-line{
+      transform: translate(20px, 620px);
+      width: 300px;
+    }
+    .six-line-two{
+      transform: translate(20px, 620px);
+      width: 145px;
+    }
+    .seven-line{
+      transform: translate(20px, 720px);
+      width: 300px;
+    }
+    .seven-line-two{
+      transform: translate(20px, 720px);
+      width: 185px;
+    }
+    .nakills{
+      transform: translate(200px, 40px);
+    }
+    .references{
+      transform: translate(-355px, -200px);
+      font-size: 20px;
+    }
+    .references i{
+      font-size: 30px;
+    }
+    .education{
+      transform: translate(220px, 150px);
+    }
+    .third-work{
+      width: 335px;
+      transform: translate(190px, 170px);
+    }
+    .third-university{
+      width: 230px;
+    }
+    .work{
+      width: 335px;
+      transform: translate(190px, 220px);
+    }
+    .work-experience p{
+      width: 300px;
+    }
+    .second-work{
+      width: 335px;
+      transform: translate(190px, 290px);
+    }
+    .second-work-experience{
+      transform: translate(-20px);
+    }
+    .second-bsit,
+     .second-university{
+      width: 270px;
+    }
+    .images{
+      width: 335px;
+      transform: translate(190px, 320px);
+    }
+    .icons{
+      transform: translate(-355px, -880px);
+      font-size: 20px;
+    }
+    .icons i{
+      font-size: 30px;
+    }
+  }
+    
